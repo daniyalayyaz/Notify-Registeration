@@ -136,7 +136,7 @@ class _MyAppState extends State<MyApp> {
     }
     return MaterialApp(
         title: 'Notify-App',
-        theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Poppins'),
+        theme: ThemeData(fontFamily: 'Poppins'),
         home: Scaffold(
           resizeToAvoidBottomInset: true,
           body: SafeArea(
@@ -166,7 +166,7 @@ class _MyAppState extends State<MyApp> {
                                                       .top) *
                                               0.060,
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.teal),
+                                      color: Colors.black),
                                   textAlign: TextAlign.start,
                                 ),
                               ),
@@ -208,7 +208,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.person,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -259,7 +259,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.email,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -313,7 +313,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.phone,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -368,7 +368,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.work_rounded,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -420,7 +420,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.calendar_today_rounded,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -471,7 +471,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.house_rounded,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -523,7 +523,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.pin_drop_rounded,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -576,7 +576,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.family_restroom,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -627,7 +627,7 @@ class _MyAppState extends State<MyApp> {
                                         vertical: 10.0, horizontal: 15.0),
                                     child: Icon(
                                       Icons.phone_in_talk_rounded,
-                                      color: Colors.teal,
+                                      color: Colors.black,
                                     ),
                                   ),
                                   Container(
@@ -703,8 +703,7 @@ class _MyAppState extends State<MyApp> {
                                       ),
                                       child: Text(
                                         "Request Credentials",
-                                        style: TextStyle(
-                                            color: Colors.teal.shade800),
+                                        style: TextStyle(color: Colors.black),
                                       ),
                                       onPressed: saveform,
                                     ),
