@@ -105,10 +105,13 @@ class _MyAppState extends State<MyApp> {
       }
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Details Sent!'),
+          content: Text(
+            'Details Sent!',
+            style: TextStyle(color: Colors.black),
+          ),
           action: SnackBarAction(
-              label: 'OK', textColor: Colors.greenAccent, onPressed: () {}),
-          backgroundColor: Colors.teal,
+              label: 'OK', textColor: Colors.black, onPressed: () {}),
+          backgroundColor: Colors.grey[400],
         ),
       );
     }
