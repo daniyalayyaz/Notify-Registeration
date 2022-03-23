@@ -1,4 +1,4 @@
-package com.example.policesfs
+package com.example.notifyapps
 
 import io.flutter.embedding.android.FlutterActivity
 
